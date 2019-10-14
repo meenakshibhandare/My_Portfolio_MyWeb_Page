@@ -1,0 +1,13 @@
+body,
+html {
+  height: 100%;
+  margin: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div {
+  background-color: rgb(228, 228, 228);
+  border: 15px solid rgb(8, 99, 99);
+  padding: 50px;
+  margin: 20px;
+}

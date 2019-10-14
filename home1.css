@@ -1,0 +1,82 @@
+.main {
+  background-color: #475557;
+}
+
+#nestedcard {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(95, 126, 133);
+  margin-top: 50px;
+  border: 3px solid #87cbce;
+  border-radius: 8px;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+div.card img {
+  width: 400px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: arial;
+  background-color: #6d8180;
+  box-sizing: content-box;
+  border: 3px solid #87cbce;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  orientation: landscape;
+}
+
+.title {
+  color: rgb(124, 27, 27);
+  font-size: 15px;
+  text-align: justify;
+}
+
+span {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  text-align: justify;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.33;
+}
+
+div.card1 img {
+  max-width: 25ch;
+}
+
+#social {
+  width: 20%;
+  height: 10%;
+}
+
+#button {
+  border: none;
+  outline-width: 1px;
+  display: block;
+  padding: 20px;
+  color: white;
+  background-color: rgb(18, 24, 24);
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 50%;
+  margin: 10px;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Webpage on portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="CSS/home.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navigation Bar ,all links-->
+      <div class="navbar">
+        <a href="Personal_info/AboutMe.html">About Me</a>
+        <a href="Skills/Tech.html">Technical Skills</a>
+        <a href="Skills/Blog.html">Blogs</a>
+        <a href="#nestedgrid">Contact Me</a>
+      </div>
+      <!-- Header ,changing images-->
+      <div class="header">
+        <div class="text">
+          <q>A Website Created By Me</q>
+        </div>
+      </div>
+      <!-- main ,blogs -->
+      <div class="main">
+        <div id="nestedcard">
+          <div class="blog-container">
+            <p>Informational Links...</p>
+
+            <a href="https://en.wikipedia.org/wiki/HTML5" id="button">
+              HTML 5</a
+            >
+            <a
+              href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+              id="button"
+            >
+              CSS
+            </a>
+            <a href="https://en.wikipedia.org/wiki/JavaScript" id="button">
+              JAVA SCRIPT
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Web_development" id="button">
+              Web Development</a
+            >
+            <a
+              href="https://en.wikipedia.org/wiki/Web_development_tools"
+              id="button"
+            >
+              Web Development Tools
+            </a>
+          </div>
+          <div class="card">
+            <img src="Images/intro.jpg" alt="pwp" />
+            <p>Progressive Web Apps</p>
+            <span>
+              PWA’s are type of application delivered using web technologies.
+              they can work on any system with the updated browser like windows,
+              ios and android. PWA work like standard phone apps i.e. can work
+              offline, interact with operating system like sending notification
+              . the biggest advantage using this system is that user doesn’t
+              have to install an application to use this. work on Pwa was
+              started by google in 2015. they where able to give concepts of
+              service workers and web app manifests.
+            </span>
+
+            <a href="Skills/Blog.html" id="button"> Read More </a>
+          </div>
+          <div class="card">
+            <img src="Images/wdp.jpg" alt="wgd" />
+            <p>Web Game Development</p>
+            <span
+              >They can work on any system with the updated browser like
+              windows, ios and android. PWA work like standard phone apps i.e.
+              can work offline, interact with operating system like sending
+              notification. The biggest advantage using this system is that user
+              doesn’t have to install an application to use this. work on PWA
+              was started by google in 2015. After that all major browsers
+              started supporting it one after that other. As of now, PWA’s can
+              work on all type of screens like phones, tablets and desktops.
+            </span>
+            <a href="Skills/Blog.html" id="button"> Read More </a>
+          </div>
+        </div>
+      </div>
+      <!-- content ,about me and contact me-->
+      <div class="content">
+        <div id="nestedgrid">
+          <div class="card1">
+            <img src="Images/myself.png" alt="minu" />
+            <p>Minakshi Bhandare</p>
+            <p>Front End Web Developer</p>
+            <a href="http://linkedin.com/in/minakshi-bhandare-b3ab47a6">
+              <img id="social" src="Images/linkedin.png"
+            /></a>
+
+            <a href="https://github.com/meenakshibhandare">
+              <img id="social" src="Images/github.png"
+            /></a>
+          </div>
+          <div class="form1">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+              <label for="lname">E-mail</label>
+              <input
+                type="text"
+                id="e_mail"
+                name="email"
+                placeholder="Your Email.."
+              />
+              <label for="subject">Comement</label>
+              <textarea
+                id="comement"
+                name="subject"
+                placeholder="Write something.."
+              ></textarea>
+              <p><button>Contact</button></p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer">© 2019 minakshib</div>
+    </div>
+  </body>
+</html>
